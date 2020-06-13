@@ -1,0 +1,9 @@
+{% extends 'layout.html'%} {% block body %}
+<h4>{{article.title}}</h4>
+<small>Written by: {{article.author}} on {{article.create_date}}</small>
+<hr />
+<div>
+  {{article.body}}
+</div>
+
+{% endblock%}
